@@ -119,6 +119,10 @@ address {
 
 /* Footer */
 
+.footer {
+  background-color: #2f303a;
+}
+
 .logo-footer {
   color: var(--primary-white-color);
 }
