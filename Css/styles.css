@@ -1,11 +1,122 @@
-.body {
-  background-color: #fff;
-  color: 757575;
+/* цвет основной текста #212121 */
+/* вторичный цвет текста #757575 */
+/* вторичный цвет фона #AFB1B8 */
+
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+
+:root {
+  --primary-text-color: #757575;
+  --primary-white-color: #ffffff;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
 }
 
-/*цвет основной текста #212121*/
-/*вторичный цвет текста #757575*/
-/*вторичный цвет фона #AFB1B8*/
+body {
+  background-color: #fff;
+  color: var(--primary-text-color);
+}
 
-/*белый #FFFFFF*/
-/*акцент #2196F3*/
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*Header*/
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+.logo-header {
+  color: black;
+}
+
+address {
+  font-style: inherit;
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.address .link:hover,
+.address .link:focus {
+  color: var(--accent-color);
+}
+
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Hero */
+.hero-title {
+  color: var(--primary-white-color);
+}
+
+/* button */
+.button {
+  color: var(--primary-white-color);
+  background: var(--accent-color);
+}
+
+/* what we do */
+.what-we-do .title {
+  color: var(--primary-white-color);
+}
+
+/* Features */
+
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+/* Team */
+.team-list .title {
+  color: var(--title-text-color);
+}
+
+/* Works-list for portfolio */
+.works-list .title {
+  color: var(--title-text-color);
+}
+
+.works-description {
+  color: var(--primary-white-color);
+}
+
+/* Footer */
+
+.logo-footer {
+  color: var(--primary-white-color);
+}
+
+.address-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.physical-address {
+  color: var(--primary-white-color);
+}
+
+.join {
+  color: var(--primary-white-color);
+}
+
+.developing {
+  color: rgba(255, 255, 255, 0.4);
+}
