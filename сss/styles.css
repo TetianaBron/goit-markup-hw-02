@@ -18,6 +18,7 @@ body {
   font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
+  line-height: 1.1;
 }
 
 ul {
@@ -88,6 +89,7 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   font-size: 16px;
+  line-height: 1.8;
 }
 
 .button-subscribe {
@@ -95,6 +97,13 @@ a {
   background: var(--accent-color);
   letter-spacing: 0.06em;
   font-size: 16px;
+  line-height: 1.8;
+}
+
+button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 /* what we do */
@@ -109,6 +118,10 @@ a {
 .feature-list .title {
   color: var(--title-text-color);
   text-transform: uppercase;
+}
+
+.feature-description {
+  line-height: 1.7;
 }
 
 /* Team */
@@ -128,15 +141,18 @@ a {
   color: var(--title-text-color);
   font-size: 18px;
   letter-spacing: 0.06em;
+  line-height: 2;
 }
 
 .works-list .product {
   font-size: 16px;
+  line-height: 1.8;
 }
 
 .works-description {
   color: var(--primary-white-color);
   font-size: 18px;
+  line-height: 1.5;
 }
 
 /* Footer */
@@ -150,11 +166,13 @@ a {
   font-family: Raleway, sans-serif;
   font-size: 26px;
   font-weight: bold;
+  line-height: 1.1;
 }
 
 .address-footer {
   color: rgba(255, 255, 255, 0.6);
   font-style: inherit;
+  line-height: 1.7;
 }
 
 .physical-address {
