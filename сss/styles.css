@@ -16,6 +16,8 @@ body {
   background-color: #fff;
   color: var(--primary-text-color);
   font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
 }
 
 ul {
@@ -31,14 +33,18 @@ a {
 
 .logo-header {
   color: black;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: bold;
 }
 
 .logo-web {
   color: var(--accent-color);
 }
 
-address {
+.address .link {
   font-style: inherit;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link {
@@ -63,25 +69,32 @@ address {
 .section-title {
   color: var(--title-text-color);
   text-align: center;
+  font-size: 36px;
 }
 
 /* Hero */
 .hero-title {
   color: var(--primary-white-color);
   text-transform: uppercase;
+  font-size: 44px;
+  letter-spacing: 0.06em;
   text-align: center;
 }
 
-/* button */
+/* buttons */
 .button-order {
   color: var(--primary-white-color);
   background: var(--accent-color);
   text-align: center;
+  letter-spacing: 0.06em;
+  font-size: 16px;
 }
 
 .button-subscribe {
   color: var(--primary-white-color);
   background: var(--accent-color);
+  letter-spacing: 0.06em;
+  font-size: 16px;
 }
 
 /* what we do */
@@ -102,19 +115,28 @@ address {
 .team-list .title {
   color: var(--title-text-color);
   text-align: center;
+  font-size: 16px;
 }
 
 .profession {
   text-align: center;
+  font-size: 16px;
 }
 
 /* Works-list for portfolio */
 .works-list .title {
   color: var(--title-text-color);
+  font-size: 18px;
+  letter-spacing: 0.06em;
+}
+
+.works-list .product {
+  font-size: 16px;
 }
 
 .works-description {
   color: var(--primary-white-color);
+  font-size: 18px;
 }
 
 /* Footer */
@@ -125,10 +147,14 @@ address {
 
 .logo-footer {
   color: var(--primary-white-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: bold;
 }
 
 .address-footer {
   color: rgba(255, 255, 255, 0.6);
+  font-style: inherit;
 }
 
 .physical-address {
